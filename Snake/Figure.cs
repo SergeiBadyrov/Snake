@@ -16,6 +16,14 @@ namespace Snake
             }
         }
 
+        public void Clear()
+        {
+            foreach (Point p in pList)
+            {
+                p.Clear();
+            }
+        }
+
         internal bool IsHit(Figure figure)
         {
             foreach (var p in pList)

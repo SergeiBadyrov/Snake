@@ -60,8 +60,8 @@ namespace Snake
         // Отрисовка точки по координатам. Составляющая метода Draw для фигуры.
         public void Draw()
         {
-            Console.SetCursorPosition( x, y );
-            Console.Write( sym );			
+            Console.SetCursorPosition(x, y);
+            Console.Write(sym);
         }
 
         // Стирание точки.

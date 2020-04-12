@@ -57,6 +57,7 @@ namespace Snake
                 }
             }
 
+            snake.Clear();
             GameFinish.WriteGameOver(score);
 
             Console.ReadKey();
