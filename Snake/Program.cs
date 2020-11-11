@@ -12,9 +12,11 @@ namespace Snake
             #region Start game conditions
 
             // Создание игрового поля.
+#pragma warning disable CA1416
             Console.SetWindowSize(80, 25);
             Console.SetBufferSize(80, 25);
             Console.CursorVisible = false;
+#pragma warning restore CA1416
 
             // Отрисовка стен.
             Walls walls = new Walls(80, 25);
